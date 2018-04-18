@@ -29,12 +29,17 @@
         dialog_focus: !this.data.dialog_focus
       })
     },    
+    
 三.弹框底层滑动问题解决方案  
+
 model中的css  
+
 page{
   overflow-y:hidden;
-}
+}  
+
 然后通过给wxml里面最外层使用  
+
 <scroll-view scroll-y="{{isScroll}}"> 
 data: {
     isScroll: true
