@@ -21,7 +21,8 @@
         isShow: !this.data.isShow,
         dialog_focus: !this.data.dialog_focus
       })
-    },
+    },  
+    
     //展示弹框
     showDialog() {
       this.setData({
@@ -29,6 +30,7 @@
         dialog_focus: !this.data.dialog_focus
       })
     },    
+    
     
 三.弹框底层滑动问题解决方案  
 
@@ -50,7 +52,8 @@ data: {
       isScroll: false
     });
   },
-
+  
+  
   //取消事件
   _cancelEvent() {
     console.log('你点击了取消');
@@ -58,7 +61,8 @@ data: {
     this.setData({
       isScroll: true
     });
-  },
+  },  
+  
   //确认事件
   _confirmEvent() {
     console.log('你点击了确定');
