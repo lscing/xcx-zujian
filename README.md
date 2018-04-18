@@ -70,4 +70,23 @@ data: {
     this.setData({
       isScroll: true
     });
-  },
+  },  
+  
+  最新
+  解决底层滑动问题  
+  
+  只需要加个catchtouchmove='touchmoveTap'，不用管touchmoveTap，既可以解决
+  <view class="container" catchtouchmove='touchmoveTap'>
+    <inputDialog id='dialog' 
+      title='{{title}}' 
+      placeholder='{{placeholder}}'
+      value='' 
+      type='text'
+      maxlength='12'
+      cancelText='取消' 
+      confirmText='确定' 
+      bind:confirm="confirm"
+      bind:input="input">
+    </inputDialog>  
+</view>
+  
