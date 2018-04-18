@@ -4,10 +4,14 @@
 这个底层滚动的BUG分为2种，第一种是只要你滑动遮罩层都会滑动，第二种是，只在弹框的区域内才可以滑动  
 <img src="https://github.com/lscing/xcx-zujian/blob/master/img/img1.png" width = "375" height = "667" alt="图片名称" align=center />  
 # 以下是各种技术的详解  
-一.components 里面是组件，pages\model里面是组件的调用，看代码既可懂！   
-二.焦点通过<input maxlength='{{maxlength}}'focus="{{dialog_focus}}" 来控制    
-因为弹框隐藏的，所以默认dialog_focus:false
-当弹框开启，或者隐藏时候取反 
+一.components 里面是组件，pages\model里面是组件的调用，看代码既可懂！  
+
+二.焦点通过<input maxlength='{{maxlength}}'focus="{{dialog_focus}}" 来控制  
+
+因为弹框隐藏的，所以默认dialog_focus:false  
+
+当弹框开启，或者隐藏时候取反   
+
 //隐藏弹框
     hideDialog() {
       this.setData({
