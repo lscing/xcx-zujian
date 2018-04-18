@@ -15,7 +15,7 @@
 
 当弹框开启，或者隐藏时候取反   
 
-//隐藏弹框
+    //隐藏弹框
     hideDialog() {
       this.setData({
         isShow: !this.data.isShow,
