@@ -1,0 +1,4 @@
+/* pages/add/index.wxss */
+page{
+  overflow-y:hidden;
+}

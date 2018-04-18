@@ -1,0 +1,13 @@
+<!--components/dialog/dialog.wxml-->
+<view class='wx_dialog_container'  hidden="{{!isShow}}">
+    <!-- 遮罩层加catchtouchmove="true"是为了在遮罩层滑动，但是底下内容不滑动 -->
+    <view class='wx-mask' catchtap='_cancelEvent'></view>
+    <view class='wx-dialog'>
+        <view class='wx-dialog-title' >{{ title }}</view>
+        <input maxlength='{{maxlength}}'focus="{{dialog_focus}}" class='dialog-input' bindinput='input' value='{{value}}' type='{{type}}' placeholder="{{placeholder}}"/> 
+        <view class='wx-dialog-footer'>
+          <view class='wx-dialog-btn' catchtap='_cancelEvent'>{{ cancelText }}</view>
+          <view class='wx-dialog-btn' catchtap='_confirmEvent'>{{ confirmText }}</view>
+        </view>
+    </view>
+</view>

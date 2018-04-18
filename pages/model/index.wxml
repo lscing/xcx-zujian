@@ -1,0 +1,21 @@
+<!--pages/add/index.wxml-->
+<scroll-view scroll-y="{{isScroll}}"> 
+  <button type="primary" bindtap="showDialog"> 按钮 </button>
+  <button type="primary" bindtap="openConfirm">原生</button>
+
+<view class="container">
+    <dialog id='dialog' 
+      title='我是标题' 
+      placeholder='请输入内容吧'
+      value='{{gradeName}}' 
+      type='text'
+      maxlength='12'
+      cancelText='取消' 
+      confirmText='确定'
+      bind:cancelEvent="_cancelEvent"  
+      bind:confirmEvent="_confirmEvent">
+    </dialog>
+    
+    
+</view>
+</scroll-view> 

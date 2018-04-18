@@ -1,0 +1,117 @@
+{
+  "pages": [
+
+
+    "pages/model/index",
+    "pages/core/index/index",
+    "pages/0404/index",
+    "pages/0417/index",
+    "pages/addressBook/grade/index",
+    
+    
+    
+    
+    
+    "pages/my/student/index",
+    "pages/my/my_tea/index",
+    "pages/my/my_stu/index",
+    "pages/notice/createNotice/index",
+    "pages/notice/noticeMessage/index",
+    "pages/sign/createSign/index",
+    "pages/addressBook/select/index",
+    "pages/leave/approve/index",
+    "pages/sign/details/index",
+    "pages/notice/details/index",
+    "pages/notice/lookNotice/index",
+    "pages/sign/signResult/index",
+    "pages/sign/manage/index",
+    "pages/notice/manage/index",
+    "pages/notice/getStudentByType/index",
+    "pages/leave/manage/index",
+    "pages/leave/doLeave/index",
+    "pages/leave/info/index",
+    "pages/leave/student/index",
+    "pages/addressBook/signList/index",
+    "pages/addressBook/team/index",
+    
+    "pages/addressBook/addGrade/index",
+    "pages/addressBook/addTeam/index",
+    "pages/addressBook/teamInfo/index",
+    "pages/addressBook/addGroup/index",
+    "pages/addressBook/gradeInfo/index",
+    "pages/addressBook/myList/index",
+    "pages/addressBook/gradeList/index",
+    "pages/addressBook/groupList/index",
+    "pages/addressBook/teamList/index",
+    "pages/addressBook/noticeList/index",
+    "pages/addressBook/index/index",
+    "pages/addressBook/signDetails/index",
+    "pages/search/index",
+    "pages/home/index",
+    "pages/sign/sign_course/index",
+    "pages/sign/signMessage/index",
+    "pages/core/phone/index",
+    "pages/sign/card/success/index",
+    "pages/sign/card/list/index",
+    "pages/sign/card/search/index",
+    "pages/core/excel/index",
+    "pages/core/map/index",
+    "pages/sign/sign_area/index",
+    "pages/sign/sign_gps/index",
+    "pages/sign/sign_blue/index",
+    "pages/templates/index",
+    "pages/my/index/index",
+    "pages/my/about/index",
+    "pages/my/feedback/index",
+    
+    "pages/core/kb/kb",
+    "pages/web/index/index",
+    "pages/core/register/index",
+    "pages/core/role/index",
+    "pages/message/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4FA647",
+    "navigationBarTitleText": "我在校园",
+    "navigationBarTextStyle": "light",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#ebebeb"
+  },
+  "tabBar": {
+    "color": "#7f7e83",
+    "selectedColor": "#4FA647",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "img/index/home@active.png",
+        "iconPath": "img/index/home.png",
+        "pagePath": "pages/home/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "img/index/addressbook@active.png",
+        "iconPath": "img/index/addressbook.png",
+        "pagePath": "pages/addressBook/index/index",
+        "text": "通讯录"
+      },
+      {
+        "selectedIconPath": "img/index/message@active.png",
+        "iconPath": "img/index/message.png",
+        "pagePath": "pages/message/index",
+        "text": "消息"
+      },
+      {
+        "selectedIconPath": "img/index/my@active.png",
+        "iconPath": "img/index/my.png",
+        "pagePath": "pages/my/index/index",
+        "text": "我"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "组件测试",
+  "usingComponents": {
+    "inputModal": "/components/inputModal/inputModal",
+    "dialog": "/components/dialog/dialog"
+  }
+}
